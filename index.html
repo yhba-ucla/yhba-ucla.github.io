@@ -23,15 +23,15 @@
         background-color: #FFFFFF;
         display: flex;
         align-items: flex-end;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 40px;
+        padding-bottom: 20px;
       }
       #header-text {
         margin-top: 60px;
         margin-left: 220px;
       }
       #header-text-name {
-        font-size: 30px;
+        font-size: 40px;
       }
       #header-text-email {
         font-size: 20px;
@@ -41,13 +41,8 @@
         font-size: 20px;
       }
       .vspace-top {
-        margin-top: 30px;
-      }
-      .vspace-top-news {
-          margin-top: 15px;
-      }
-      .news-date {
-          font-weight: bold;
+        margin-top: 40px;
+        font-size: 15px;
       }
       .paper-title {
         font-weight: bold;
@@ -79,6 +74,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href='#papers'>Papers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='#interest'>Research Interest</a>
       </li>
     </ul>
   </div>
@@ -115,14 +113,44 @@
     <div class='container'>
         <div class='row'>
             <div class='col offset-sm-1'>
-                <p>
-                  I am a Ph.D. student in the <a href="http://www.ee.ucla.edu/" target="_blank">Electrical and Computer Engineering Department</a> at <a href="http://www.ucla.edu/" target="_blank">University of California, Los Angeles</a>. I am a member of the <a href="https://visual.ee.ucla.edu/" target="_blank">Visual Machines Group</a>, advised by <a href="https://www.ee.ucla.edu/achuta-kadambi/" target="_blank">Prof. Achuta Kadambi</a>. My research interests include computer vision, computational imaging, physics-based learning, and data-driven physics discovery. Before joining UCLA, I received my undergraduate degree at <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="_blank">The Hong Kong Polytechnic University</a>, advised by <a href="http://www.eie.polyu.edu.hk/~wcsiu/" target="_blank">Prof. Wan-Chi Siu</a>.
-                </p>
 
+                <div class='vspace-top' id='bio'>
+                  <!-- <h1 style="font-size:25px">Bio</h1> -->
+                  <p>
+                    I am a Ph.D. student in the <a href="http://www.ee.ucla.edu/" target="_blank">Electrical and Computer Engineering Department</a> at the <a href="http://www.ucla.edu/" target="_blank">University of California, Los Angeles</a>. I am a member of the <a href="https://visual.ee.ucla.edu/" target="_blank">Visual Machines Group</a>, advised by <a href="https://www.ee.ucla.edu/achuta-kadambi/" target="_blank">Prof. Achuta Kadambi</a>. Before joining UCLA, I received my undergraduate degree at <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="_blank">The Hong Kong Polytechnic University</a>, advised by <a href="http://www.eie.polyu.edu.hk/~wcsiu/" target="_blank">Prof. Wan-Chi Siu</a>.
+                  </p>
+                </div>
+
+                <div class='vspace-top' id='interest'>
+                  <h1 style="font-size:25px">Research Interest</h1>
+                  <p>
+                    Despite the remarkable performance of deep learning, the models usually suffer from generalization issues when their training sets are not sufficiently large or diverse. Human intelligence, on the other hand, is capable of learning with a few samples, and one of the potential reasons for this is that we use other prior knowledge to generalize to unseen data and new environments. I am interested in enabling machines with such capability. More specifically, I am working on bridging deep learning with some physical priors and inductive biases for various applications in computer vision, computational imaging, and healthcare. 
+                  </p>
+                </div>
+                
                 <div class='vspace-top' id='papers'>
-                    <h1>Papers</h1>
+                    <h1 style="font-size:25px">Papers</h1>
                     <p>(* Indicates equal contribution)</p>
                 </div>
+
+                <div class='row vspace-top'>
+                  <div class="col-sm-4">
+                      <img src='./images/rppg_dark_skin.PNG' class='img-fluid'>
+                  </div>
+
+                  <div class="col">
+                      <div class='paper-title'>
+                        Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation
+                      </div>
+                      <div class='paper-desc'> arXiv, 2021 </div>
+                      <div class='paper-authors'>
+                        <b>Yunhao Ba*</b>, Zhen Wang*, Kerim Doruk Karinca, Oyku Deniz Bozkurt, Achuta Kadambi
+                      </div>
+                      <div>
+                          <a href="https://arxiv.org/abs/2106.06007" target="_blank">[Paper Link]</a>
+                      </div>
+                  </div>
+              </div>
 
                 <div class='row vspace-top'>
                     <div class="col-sm-4">
@@ -138,6 +166,7 @@
                           <b>Yunhao Ba</b>, Alex Gilbert*, Franklin Wang*, Jinfa Yang, Rui Chen, Yiqin Wang, Lei Yan, Boxin Shi, Achuta Kadambi
                         </div>
                         <div>
+                            <a href=" https://link.springer.com/chapter/10.1007%2F978-3-030-58586-0_33" target="_blank">[Paper Link]</a>
                             <a href="https://visual.ee.ucla.edu/deepsfp.htm" target="_blank">[Project Page]</a>
                         </div>
                     </div>
@@ -157,6 +186,7 @@
                           Pradyumna Chari*, Chinmay Talegaonkar*, <b>Yunhao Ba*</b>, Achuta Kadambi
                         </div>
                         <div>
+                            <a href="https://arxiv.org/abs/1911.11893" target="_blank">[Paper Link]</a> 
                             <a href="https://visual.ee.ucla.edu/visualphysics.htm" target="_blank">[Project Page]</a>
                         </div>
                     </div>
@@ -176,6 +206,7 @@
                           <b>Yunhao Ba*</b>, Guangyuan Zhao*, Achuta Kadambi
                         </div>
                         <div>
+                            <a href="https://arxiv.org/abs/1910.00201" target="_blank">[Paper Link]</a> 
                             <a href="https://visual.ee.ucla.edu/blendingphysics.htm" target="_blank">[Project Page]</a>
                         </div>
                     </div>
